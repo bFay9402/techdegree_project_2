@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background: #333;
+  color: #fff;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.name {
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar li {
+  padding: .5rem;
+}
+
+.navbar li .nav-link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+header p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
