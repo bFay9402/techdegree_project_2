@@ -22,6 +22,8 @@ nav {
 .navbar {
   display: flex;
   flex-direction: column;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .navbar li {
@@ -50,3 +52,73 @@ header p {
   font-size: 1.2rem;
   text-align: center;
 }
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio .card img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.portfolio .card p {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.portfolio .card h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.contact .contact-text {
+  margin-bottom: 2.5rem;
+}
+
+.contact .phone {
+  margin-bottom: 2rem;
+}
+
+.contact .email {
+  margin-bottom: 2rem;
+}
+
+footer {
+  padding: 2rem;
+}
+
+.footer-nav {
+  display: flex;
+  list-style: none;
+}
+
+.footer-nav h4 {
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+
+.footer-nav .desktop {
+  display: none;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* media queries */
