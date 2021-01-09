@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
   background: #333;
@@ -56,6 +60,11 @@ header p {
 h2 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.skills {
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .portfolio {
