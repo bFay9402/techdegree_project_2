@@ -185,6 +185,11 @@ footer {
 
   footer {
     padding-top: 5rem;
+    display: flex;
+  }
+
+  footer h4 {
+    margin-right: auto;
   }
   
   .footer-nav li{
