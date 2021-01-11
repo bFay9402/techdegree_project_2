@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Mobile First Responsive Layout</title>
 </head>
 <body id="home">
@@ -28,40 +29,44 @@
       <p>I have experience with various current web technologies including HTML, CSS, JavaScript, React and interact with API's. I'm able to create responsive layouts for compatiblity with all devices.</p>
     </section>
     
-    <section id="portfolio" class="portfolio">
-      <h2>Portfolio</h2>
-      <div class="card">
-        <img src="images/portfolio-1.png" alt="Marketing Page">
-        <h3 class="title">Marketing Page</h3>
-        <p>This project shows the front page of a marketing website meant for a specific business I'm Interested in.</p>
+    <h2 id="portfolio">Portfolio</h2>
+    <section class="portfolio">
+      <div class="row-1">
+        <div class="card col-1">
+          <img src="images/portfolio-1.png" alt="Marketing Page">
+          <h3 class="title">Marketing Page</h3>
+          <p>This project shows the front page of a marketing website meant for a specific business I'm Interested in.</p>
+        </div>
+        <div class="card col-2">
+          <img src="images/portfolio-2.png" alt="Search Page">
+          <h3 class="title">Search Page</h3>
+          <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+        </div>
+        <div class="card col-1">
+          <img src="images/portfolio-3.png" alt="Travel App">
+          <h3 class="title">Travel App</h3>
+          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+        </div>
       </div>
-      <div class="card">
-        <img src="images/portfolio-2.png" alt="Search Page">
-        <h3 class="title">Search Page</h3>
-        <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-      </div>
-      <div class="card">
-        <img src="images/portfolio-3.png" alt="Travel App">
-        <h3 class="title">Travel App</h3>
-        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-      </div>
-      <div class="card">
-        <img src="images/portfolio-4.png" alt="Map of Favorite Spots">
-        <h3 class="title">Map of Favorite Spots</h3>
-        <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-      </div>
-      <div class="card">
-        <img src="images/portfolio-5.png" alt="Photo Gallery">
-        <h3 class="title">Photo Gallery</h3>
-        <p>This project shows pictues from a recent trip to the viewer and alows them to easily navigate through photos.</p>
-      </div>
-      <div class="card">
-        <img src="images/portfolio-6.png" alt="Calculator">
-        <h3 class="title">Calculator</h3>
-        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+      <div class="row-2">
+        <div class="card col-2">
+          <img src="images/portfolio-4.png" alt="Map of Favorite Spots">
+          <h3 class="title">Map of Favorite Spots</h3>
+          <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+        </div>
+        <div class="card col-1">
+          <img src="images/portfolio-5.png" alt="Photo Gallery">
+          <h3 class="title">Photo Gallery</h3>
+          <p>This project shows pictues from a recent trip to the viewer and alows them to easily navigate through photos.</p>
+        </div>
+        <div class="card col-2">
+          <img src="images/portfolio-6.png" alt="Calculator">
+          <h3 class="title">Calculator</h3>
+          <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+        </div>
       </div>
     </section>
-      
+    
     <section id="contact" class="contact">
       <h2>Contact</h2>
       <p class="contact-text">If your're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
@@ -70,15 +75,15 @@
     </section>
   </div>
     
-    <footer>
-      <ul class="footer-nav">
-        <h4>Student Name</h4>
-        <li class="desktop"><a href="#home">Home</a></li>
-        <li class="desktop"><a href="#skills">Skills</a></li>
-        <li class="desktop"><a href="#portfolio">Portfilio</a></li>
-        <li class="desktop"><a href="#contact">Contact</a></li>
-        <li class="mobile"><a href="#home">Back to top</a></li>
-      </ul>
-    </footer>
+  <footer>
+    <ul class="footer-nav">
+      <h4>Student Name</h4>
+      <li class="desktop"><a href="#home">Home</a></li>
+      <li class="desktop"><a href="#skills">Skills</a></li>
+      <li class="desktop"><a href="#portfolio">Portfilio</a></li>
+      <li class="desktop"><a href="#contact">Contact</a></li>
+      <li class="mobile"><a href="#home">Back to top</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
